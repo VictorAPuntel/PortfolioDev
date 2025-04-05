@@ -1,0 +1,44 @@
+header {
+  background-image: url(../assets/image/Background_Intro.png);
+  height: 750px;
+  width: 100%;
+  text-align: center;
+  .container {
+    padding: 120px 163px 183px;
+    display: grid;
+    justify-items: center;
+  }
+  .profile {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 1px solid var(--red);
+    object-fit: cover;
+    position: relative;
+    .vector {
+      position: absolute;
+      top: 70px;
+      left: 59px;
+    }
+  }
+  .content {
+    margin-top: 56px;
+    > p {
+      font: var(--subtitle-text);
+      color: var(--gray-500);
+      margin-bottom: 8px;
+      span {
+        color: var(--red);
+      }
+    }
+    h1 {
+      font: var(--title-lg);
+      color: var(--gray-600);
+      margin-bottom: 20px;
+      + p {
+        font: var(--text-sm);
+        color: var(--gray-400);
+      }
+    }
+  }
+}
