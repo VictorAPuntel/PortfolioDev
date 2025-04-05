@@ -26,3 +26,9 @@
   --text-md: 16px 140% var(--font-family);
   --text-sm: 14px 140% var(--font-family);
 }
+
+.container {
+  padding: 120px 163px 183px;
+  display: grid;
+  justify-items: center;
+}
