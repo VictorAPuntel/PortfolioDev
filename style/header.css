@@ -37,4 +37,15 @@ header {
       }
     }
   }
+
+  .tags {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 80px;
+    gap: 8px;
+  }
+
+  .division {
+    margin-top: 99.5px;
+  }
 }
