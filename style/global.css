@@ -27,10 +27,15 @@
   --text-sm: 14px 140% var(--font-family);
 }
 
-.container {
+.container-header {
   padding: 120px 163px 183px;
   display: grid;
   justify-items: center;
+}
+
+span {
+  color: var(--red);
+  font: var(--subtitle-text);
 }
 
 .tag-div {
@@ -45,5 +50,35 @@
   > img {
     width: 20px;
     height: 19px;
+  }
+  > p {
+    font: var(--text-md);
+  }
+}
+
+.container-main {
+  padding: 72px 120px 144px;
+  display: grid;
+  justify-items: center;
+}
+
+.itens {
+  padding: 12px 12px 17px;
+  border-radius: 8px;
+  background-color: var(--gray-300);
+
+  > img {
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .title {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+  .text {
+    font: var(--text-sm);
+    color: var(--gray-500);
   }
 }

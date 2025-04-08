@@ -23,9 +23,6 @@ header {
       font: var(--subtitle-text);
       color: var(--gray-500);
       margin-bottom: 8px;
-      span {
-        color: var(--red);
-      }
     }
     h1 {
       font: var(--title-lg);

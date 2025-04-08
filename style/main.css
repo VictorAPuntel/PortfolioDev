@@ -1,0 +1,18 @@
+main {
+  background-color: var(--gray-200);
+  .jobs {
+    text-align: center;
+    > p {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+  .content {
+    margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+}
