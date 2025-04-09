@@ -29,15 +29,24 @@ footer {
     gap: 16px;
     .link {
       padding: 20px;
-      display: flex;
-      justify-content: space-between;
       width: 400px;
       background-color: var(--gray-300);
       border-radius: 8px;
-      align-items: center;
+      position: relative;
+      > img {
+        display: inline-block;
+        vertical-align: sub;
+        margin-right: 15px;
+      }
       > p {
         font: var(--text-md);
         color: var(--gray-500);
+        display: inline-block;
+      }
+      > a {
+        position: absolute;
+        right: 20px;
+        top: 20px;
       }
     }
   }
