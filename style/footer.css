@@ -1,0 +1,44 @@
+footer {
+  background-image: url(../assets/image/Background_Contacts.png);
+  padding: 128px 473px 200px;
+
+  .contact {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 48px;
+    > span {
+      color: var(--purple);
+      font: var(--subtitle-text);
+      margin-bottom: 8px;
+    }
+    > h3 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+    > p {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    .link {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+      background-color: var(--gray-300);
+      border-radius: 8px;
+      align-items: center;
+      > p {
+        font: var(--text-md);
+        color: var(--gray-500);
+      }
+    }
+  }
+}

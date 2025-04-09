@@ -15,4 +15,65 @@ main {
     justify-content: center;
     gap: 24px;
   }
+
+  .itens {
+    padding: 12px 12px 17px;
+    border-radius: 8px;
+    background-color: var(--gray-300);
+
+    > img {
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .title {
+      font: var(--title-sm);
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+    .text {
+      font: var(--text-sm);
+      color: var(--gray-500);
+    }
+  }
+
+  .service {
+    padding: 88px 120px 120px;
+    background-color: var(--gray-100);
+    justify-items: center;
+    span {
+      text-align: center;
+    }
+    > div > p {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+
+  .habilities {
+    margin-top: 56px;
+    display: flex;
+    gap: 24px;
+    .services {
+      padding: 20px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      width: 280px;
+
+      > img {
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+      .title {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        margin-bottom: 8px;
+      }
+      .text {
+        font: var(--text-sm);
+        color: var(--gray-500);
+      }
+    }
+  }
 }

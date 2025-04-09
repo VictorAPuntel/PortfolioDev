@@ -62,23 +62,4 @@ span {
   justify-items: center;
 }
 
-.itens {
-  padding: 12px 12px 17px;
-  border-radius: 8px;
-  background-color: var(--gray-300);
 
-  > img {
-    border-radius: 8px;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  .title {
-    font: var(--title-sm);
-    color: var(--gray-600);
-    margin-bottom: 8px;
-  }
-  .text {
-    font: var(--text-sm);
-    color: var(--gray-500);
-  }
-}
