@@ -33,20 +33,12 @@ footer {
       background-color: var(--gray-300);
       border-radius: 8px;
       position: relative;
-      > img {
-        display: inline-block;
-        vertical-align: sub;
-        margin-right: 15px;
-      }
+      display: grid;
+      grid-template-columns: 0.5fr 4fr 0.5fr;
+      align-items: center;
       > p {
         font: var(--text-md);
         color: var(--gray-500);
-        display: inline-block;
-      }
-      > a {
-        position: absolute;
-        right: 20px;
-        top: 20px;
       }
     }
   }
